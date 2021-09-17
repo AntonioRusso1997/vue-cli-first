@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <PrimaApp />
+    <Title />
   </div>
 </template>
 
 <script>
-import PrimaApp from './components/PrimaApp.vue'
+import Title from './components/Title.vue'
 
 export default {
   name: 'App',
   components: {
-    PrimaApp
+    Title
   }
 }
 </script>
